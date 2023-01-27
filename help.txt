@@ -1,0 +1,5 @@
+# python3 –m venv <название папки среды>
+
+# source < название папки среды>/bin/activate
+
+#deactivate
