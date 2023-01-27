@@ -40,7 +40,7 @@ def get_dict_aswers(predict):
     dict = {}
     
     dict['Бактериальная пневмония: '] = get_aswer(predict[0][0])
-    dict['Отрицательно: '] = get_aswer(predict[0][1])
+    dict['Отрицательный анализ: '] = get_aswer(predict[0][1])
     dict['Вирус пневмонии: '] = get_aswer(predict[0][2])
     return dict
 
