@@ -1,15 +1,22 @@
 import streamlit as st
 from tensorflow import keras
 import numpy as np
+#для CV2 необходима библиотека opencv-python
+#но для облака Streamlid она не подходит, будет ошибка
+#Поэтому необходимо устанавливать opencv-python-headless 
 import cv2 as cv
 
 
 @st.cache(allow_output_mutation=True)
 def load_model():
+    #модель была создана из работы
+    #https://www.kaggle.com/code/vijay20213/pneumonia-detection-with-cnn-and-ml-with-98-acc/notebook
     return keras.models.load_model('model_v2')
 
 
 def preprocessor(img_file_bytes):
+    #cv.inread работает с загружаемыми файлами
+    #cv.imdecode с файлами из памяти, но предварительно конвертированные
     temp = []
     opencv_image = cv.imdecode(img_file_bytes, 1)
     if type(opencv_image) == np.ndarray:
