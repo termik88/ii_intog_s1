@@ -43,4 +43,4 @@ jobs:
         streamlit run tests/app_to_test.py &
     - name: Test with pytest
       run: |
-        pytestыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыыы
+        pytest
