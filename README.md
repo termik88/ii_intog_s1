@@ -11,7 +11,7 @@
 
 Идея для данной модели была взята с одной из рассматриваемых задачь с Хакатона. ДатаСетом для модели(Нейросетки) служит дата сет рентгеновских снимков и мед. учереждения Гуанжоу: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
-[Структура сети](https://www.kaggle.com/code/vijay20213/pneumonia-detection-with-cnn-and-ml-with-98-acc/notebook) была обучена, сохранена и изъята с [Kaggle](https://www.kaggle.com/)
+Структура сети была обучена, сохранена и изъята с [Kaggle](https://www.kaggle.com/)
 
 Структура сетки:
 
