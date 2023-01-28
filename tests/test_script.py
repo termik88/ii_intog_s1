@@ -9,7 +9,7 @@ class ComponentsTest(BaseCase):
         # open the app and take a screenshot
         self.open("https://termik88-ii-itog-s1-streamlit-app-r1ykkj.streamlit.app/")
 
-        time.sleep(1)  # give leaflet time to load from web
+        time.sleep(10)  # give leaflet time to load from web
         self.save_screenshot("current-screenshot.png")
 
         # test screenshots look exactly the same
