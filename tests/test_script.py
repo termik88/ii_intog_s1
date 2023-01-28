@@ -1,4 +1,3 @@
-import os
 from seleniumbase import BaseCase
 import cv2
 import time
