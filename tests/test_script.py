@@ -14,7 +14,7 @@ class ComponentsTest(BaseCase):
 
         # test screenshots look exactly the same
         original = cv2.imread(
-            'ii_itog_s1/tests/latest_logs/test_script.ComponentsTest.test_basic/screenshot.png'
+            'archived_logs/1/screenshot.png'
             #"archived_logs/logs_1674870189/test_script.ComponentsTest.test_basic/screenshot.png"
         )
         duplicate = cv2.imread("current-screenshot.png")

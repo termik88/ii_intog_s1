@@ -4,14 +4,14 @@ Last Page: http://localhost:8501/
  Duration: 2.07s
   Browser: Chrome 106.0.5249.91 / headless
    Driver: chromedriver 106.0.5249.61
-Timestamp: 1674875347  (Unix Timestamp)
+Timestamp: 1674879802  (Unix Timestamp)
      Date: Saturday, 28 January 2023
-     Time: 8:09:07 AM  (+05, UTC+05:00)
+     Time: 9:23:22 AM  (+05, UTC+05:00)
 --------------------------------------------------------------------
 Traceback: File "/usr/lib/python3.10/unittest/case.py", line 591, in run
     self._callTestMethod(testMethod)
   File "/usr/lib/python3.10/unittest/case.py", line 549, in _callTestMethod
     method()
-  File "/home/ilya/vs/Prog_ii/ii_itog_s1/tests/test_script.py", line 22, in test_basic
+  File "/home/ilya/vs/Prog_ii/ii_itog_s1/tests/test_script.py", line 21, in test_basic
     assert original.shape == duplicate.shape
 Exception: 'NoneType' object has no attribute 'shape'
