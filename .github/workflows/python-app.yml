@@ -41,7 +41,7 @@ jobs:
         seleniumbase install chromedriver latest
     - name: Start Streamlit app
       run: |
-        streamlit run tests/app_to_test.py &
+        streamlit run tests/test_script.py &
     - name: Test with pytest
       run: |
         pytest
