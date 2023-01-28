@@ -2,7 +2,7 @@ from seleniumbase import BaseCase
 import cv2
 import time
 
-
+#Сравнение двух скриншотов Страницы. Так же производим сравнение по RGB
 class ComponentsTest(BaseCase):
     def test_basic(self):
 
