@@ -1,4 +1,6 @@
 # Final work (Diagnosis of the incidence of Pneumonia II st. according to the results of fluorography)
+## Диагностика заболеваемости Пневмонией II ст. по результатам флюрографии 
+
 
 ## Authors (group 15 saturday 28.01.23)
 [@termik88](https://github.com/termik88): Илья Колосов
