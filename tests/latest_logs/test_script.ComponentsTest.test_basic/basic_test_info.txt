@@ -1,0 +1,21 @@
+test_script.py::ComponentsTest::test_basic
+--------------------------------------------------------------------
+Last Page: https://termik88-ii-itog-s1-streamlit-app-r1ykkj.streamlit.app/
+ Duration: 33.87s
+  Browser: Chrome 106.0.5249.91 / headless
+   Driver: chromedriver 106.0.5249.61
+Timestamp: 1674884069  (Unix Timestamp)
+     Date: Saturday, 28 January 2023
+     Time: 10:34:29 AM  (+05, UTC+05:00)
+--------------------------------------------------------------------
+Traceback: File "/usr/lib/python3.10/unittest/case.py", line 591, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.10/unittest/case.py", line 549, in _callTestMethod
+    method()
+  File "/home/ilya/vs/Prog_ii/ii_itog_s1/tests/test_script.py", line 25, in test_basic
+    assert cv2.countNonZero(b) == cv2.countNonZero(g) == cv2.countNonZero(r) == 0
+Exception: assert 22684 == 22763
+ +  where 22684 = <built-in function countNonZero>(array([[0, 0, 0, ..., 0, 0, 0],\n       [0, 0, 0, ..., 0, 0, 0],\n       [0, 0, 0, ..., 0, 0, 0],\n       ...,\n       [0, 0, 0, ..., 0, 0, 0],\n       [0, 0, 0, ..., 0, 0, 0],\n       [0, 0, 0, ..., 0, 0, 0]], dtype=uint8))
+ +    where <built-in function countNonZero> = cv2.countNonZero
+ +  and   22763 = <built-in function countNonZero>(array([[0, 0, 0, ..., 0, 0, 0],\n       [0, 0, 0, ..., 0, 0, 0],\n       [0, 0, 0, ..., 0, 0, 0],\n       ...,\n       [0, 0, 0, ..., 0, 0, 0],\n       [0, 0, 0, ..., 0, 0, 0],\n       [0, 0, 0, ..., 0, 0, 0]], dtype=uint8))
+ +    where <built-in function countNonZero> = cv2.countNonZero
