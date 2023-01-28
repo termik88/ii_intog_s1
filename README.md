@@ -11,6 +11,17 @@
 
 [Структура сети](https://www.kaggle.com/code/vijay20213/pneumonia-detection-with-cnn-and-ml-with-98-acc/notebook) была обучена, сохранена и изъята с [Kaggle](https://www.kaggle.com/)
 
+Структура сетки:
+
+    keras.layers.Conv2D(32, (3,3), activation="relu", input_shape=(32,32,1)),
+    keras.layers.MaxPool2D(pool_size=(2,2)),
+    keras.layers.Conv2D(64, (3,3), activation="relu"),
+    keras.layers.MaxPool2D(pool_size=(2,2)),
+    keras.layers.Flatten(),
+    keras.layers.Dense(1024, activation="relu"),
+    keras.layers.Dense(200,activation="relu"),
+    keras.layers.Dense(3,activation="softmax")
+
 Итогом работы модели является три показателя, пример:
 
 - Отрицательный анализ: 99.21 %
@@ -29,5 +40,3 @@
 
 
 При вирусной пневмонии картина совсем иная. В альвеолах жидкость не скапливается и не нагнаивается. Поэтому кашля с отделяемой мокротой при ковиде нет и быть не может. Вирус поражает стенки сосудов, где происходит газообмен, появляется отек стенок сосудов, сосуды сужаются. Это приводит к замедлению циркуляции крови. Эритроциты «слипаются», препятствуя газообмену, возникает острая нехватка кислорода. Лечить антибиотиками вирусную инфекцию до присоединения к ней бактериальной бесполезно! 
-
-image.png
